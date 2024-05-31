@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="display_list_of_contacts">Display list of contacts</string>
+    <string name="display_contacts_location">Display contacts location</string>
+    <string name="display_settings">Display Settings</string>
+    <string name="save_the_contact">Save the Contact</string>
+    <string name="contact">Contact:</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="address">Address:</string>
+    <string name="enter_street_address">Enter Street Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zipcode">Zipcode</string>
+    <string name="home_phone">Home Phone:</string>
+    <string name="cell_phone">Cell Phone:</string>
+    <string name="email_address">Email Address:</string>
+    <string name="change">Change</string>
+    <string name="birthday">Birthday</string>
+    <string name="_01_01_1970">01/01/1970</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="home">Home</string>
+    <string name="cell">Cell</string>
+    <string name="email">Email</string>
+    <string name="sort_contacts_by">Sort Contacts By:</string>
+    <string name="name">Name</string>
+    <string name="sort_order">Sort Order:</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="add_a_contact">Add a contact</string>
+    <string name="delete_a_contact">Delete a Contact</string>
+    <string name="delete">Delete</string>
+    <string name="add_contact_image">Add Contact Image</string>
+    <string name="contact_photo">Contact Photo</string>
+</resources>

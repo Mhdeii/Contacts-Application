@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactMapActivity">
+
+<!--        <TextView-->
+<!--            android:id="@+id/textAddress"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="@string/address"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editAddress"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:ems="16"-->
+<!--            android:hint="@string/enter_street_address"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:inputType="textPersonName"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textAddress" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editCity"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:ems="9"-->
+<!--            android:hint="@string/city"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:inputType="textCapWords"-->
+<!--            android:nextFocusDown="@id/editState"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/editAddress" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editState"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="2dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:ems="2"-->
+<!--            android:hint="@string/state"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:inputType="textCapCharacters"-->
+<!--            android:maxLength="2"-->
+<!--            android:nextFocusDown="@id/editZip"-->
+<!--            app:layout_constraintStart_toEndOf="@id/editCity"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/editAddress" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/editZip"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="2dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:ems="5"-->
+<!--            android:hint="@string/zipcode"-->
+<!--            android:imeOptions="actionNext"-->
+<!--            android:inputType="number"-->
+<!--            android:maxLength="5"-->
+<!--            android:nextFocusDown="@id/editHome"-->
+<!--            app:layout_constraintStart_toEndOf="@id/editState"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/editAddress" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonGetLocation"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:text="Get Coordinates"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/editCity" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textLat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="32dp"-->
+<!--            android:text="Latitude"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/buttonGetLocation" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textLatitude"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:text="None"-->
+<!--            app:layout_constraintBaseline_toBaselineOf="@id/textLat"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/textLat" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textLong"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="Longitude"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textLat" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textLongitude"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="None"-->
+<!--            app:layout_constraintBaseline_toBaselineOf="@id/textLong"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/textLatitude" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textAcc"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="Accuracy"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textLong" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textAccuracy"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="None"-->
+<!--            app:layout_constraintBaseline_toBaselineOf="@id/textAcc"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/textLongitude" />-->
+
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/include"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            class = "com.google.android.gms.maps.SupportMapFragment"/>
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/navbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
